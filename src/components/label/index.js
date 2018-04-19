@@ -99,7 +99,7 @@ export default class Label extends PureComponent {
       errorColor:
       focus.interpolate({
         inputRange: [-1, 0, 1],
-        outputRange: [errorColor, baseColor, tintColor],
+        outputRange: [errorColor, tintColor, tintColor],
       });
 
     let top = input.interpolate({
