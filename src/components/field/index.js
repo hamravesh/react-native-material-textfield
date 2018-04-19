@@ -522,7 +522,7 @@ export default class TextField extends PureComponent {
               selectionColor={tintColor}
 
               {...props}
-
+              placeholderTextColor={baseColor}
               editable={!disabled && editable}
               onChange={this.onChange}
               onChangeText={this.onChangeText}
