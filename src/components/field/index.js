@@ -495,6 +495,7 @@ export default class TextField extends PureComponent {
       errored,
       restricted,
       style: labelTextStyle,
+      value
     };
 
     let counterProps = {
